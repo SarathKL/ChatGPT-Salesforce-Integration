@@ -28,6 +28,7 @@ public with sharing class ChatGPTService {
      * @description Method to generate response from ChatGPT
      */
     //pls deploy
+    //pls pls
     @AuraEnabled(cacheable=false)
     public static String generateResponse(String messageText) {
         HttpRequest req = new HttpRequest();
